@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    margin: 0;
+    background: url("wallpaperflare.com_wallpaper\(2\).jpg");
+}
+
+nav{
+    background-color: #2d3436;
+    padding: 5px;
+    
+}
+.brand-title{
+    color: white;
+}
+.links-container,.home-border,.product-border,.account-border,.favorites-border{
+    color: white;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;   
+}
+.home-border,.product-border,.account-border{
+    width: 50px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.home-border:hover{
+    background-color: white;
+    color: black;
+}
+.product-border:hover{
+    background-color: white;
+    color: black;
+}
+.account-border:hover{
+    background-color: white;
+    color: black;
+}
+.favorites-border{
+    width: 60px;
+    border-radius: 10px;
+}
+.favorites-border:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.logout{
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 20px;
+}
+.image-title{
+    border-radius: 15px;
+    position: relative;
+    left: 230px;
+    top: 70px;
+}
+h1{
+    color: #f1c40f;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 290px;
+    text-shadow: 5px 3px 5px black;
+}
+.sub-header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+    margin-left: 250px;
+    position: relative;
+    bottom: 290px;
+    text-shadow: 3px 2px 5px black;
+}

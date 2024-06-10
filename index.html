@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Document</title>
+    <link rel="stylesheet" href="styl.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        
+        body {
+            margin: 0;
+            background: url("wallpaperflare.com_wallpaper\(2\).jpg");
+            background-size: cover;
+            background-position: center;
+            font-family: "Lato", sans-serif;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        nav {
+            background-color: #2d3436;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .brand-title img {
+            width: 50px;
+        }
+
+        .links-container {
+            display: flex;
+            gap: 15px;
+        }
+
+        .links-container div {
+            color: white;
+            font-family: "Oswald", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            padding: 10px;
+            border-radius: 10px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+
+        .links-container div:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .logout {
+            color: white;
+            font-family: "Oswald", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-title {
+            border-radius: 15px;
+            max-width: 80%;
+            height: auto;
+            margin: 20px auto;
+        }
+
+        h1 {
+            color: #f1c40f;
+            text-shadow: 5px 3px 5px black;
+        }
+
+        .sub-header {
+            color: white;
+            font-family: "Oswald", sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            text-shadow: 3px 2px 5px black;
+        }
+
+        @media (min-width: 600px) {
+            .image-title {
+                max-width: 50%;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .sub-header {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (min-width: 768px) {
+            nav {
+                padding: 15px 30px;
+            }
+
+            .links-container div, .logout {
+                font-size: 22px;
+            }
+
+            .image-title {
+                max-width: 40%;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            .sub-header {
+                font-size: 2rem;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .links-container {
+                gap: 30px;
+            }
+
+            .links-container div, .logout {
+                font-size: 24px;
+            }
+
+            .image-title {
+                max-width: 30%;
+            }
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            .sub-header {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="brand-title">
+            <img class="nav-image" src="Pogs.jpg" alt="Logo">
+        </div>
+        <div class="links-container">
+            <div class="home-border">Home</div>
+            <div class="product-border">Product</div>
+            <div class="account-border">Account</div>
+            <div class="favorites-border">Favorites</div>
+        </div>    
+        <div class="logout">Logout</div>
+    </nav>
+    <div class="container">
+        <img class="image-title" src="Cutiee By shei.jpg" alt="Title Image">
+        <div class="header">
+            <h1>HEY ITS JOHNLOV!</h1>
+            <div class="sub-header">
+                The greatest Penalty for Declining to Rule<br>
+                Is to be ruled by someone inferior to Yourself<br>
+                - Plato
+            </div>
+        </div>
+    </div>
+</body>
+</html>
